@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+@layer compnents { 
+ .heroButton {
+  @apply px-6 py-2 border border-[#2a2a2a] rounded-full uppercase text-sm tracking-widest text-gray-400 transition-all duration-300 ease-in-out hover:border-[#F7AB0A]/70 hover:text-[#F7AB0A] hover:shadow-[0_0_10px_rgba(247,171,10,0.2)] active:scale-[0.97] cursor-pointer;
+}
+  .contactInput { 
+  @apply outline-none bg-slate-400/10 rounded-md border-b border-[#242424] px-6 py-4 text-gray-300 placeholder-gray-500 transition-all duration-300 ease-in-out focus:border-[#F7AB0A]/70 focus:text-[#F7AB0A] hover:border-[#F7AB0A]/50 focus:bg-[#1f1f1f] hover:bg-[#1a1a1a];
+}
+  }
+  
 :root {
   --background: #ffffff;
   --foreground: #171717;
